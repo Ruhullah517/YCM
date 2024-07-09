@@ -19,9 +19,9 @@ const HeroSection = () => {
                 }}
             ></div>
             <div className="relative z-10 text-white text-start w-5/6">
-                <h1 className="text-5xl font-medium mb-4 pb-10 tracking-wide">Empovering Educators
+                <h1 className="text-5xl font-medium mb-4 pb-10 tracking-wide">EMPOVERING EDUCATORS
                     <br />
-                    Transforming Lives
+                    TRANSFORMING LIVES
                 </h1>
             </div>
             <div className='absolute inset-x-12 -bottom-14 h-40  rounded-lg border-solid bg-white  text-grey-900 flex items-center justify-center gap-x-32 text-xl font-bold pl-7 pr-7 drop-shadow-xl'>
