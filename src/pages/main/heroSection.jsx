@@ -24,7 +24,7 @@ const HeroSection = () => {
                     TRANSFORMING LIVES
                 </h1>
             </div>
-            <div className='absolute inset-x-12 -bottom-12 h-40  rounded-xl border-solid bg-slate-50  text-grey-900 flex items-center justify-center gap-x-32 text-xl font-medium
+            <div className='absolute inset-x-12 -bottom-10 h-40  rounded-xl border-solid bg-slate-50  text-grey-900 flex items-center justify-center gap-x-32 text-xl font-medium
  pl-7 pr-7 drop-shadow-xl'>
                 <div className='flex items-center justify-center gap-x-4 w-full'>
                     <div>
