@@ -41,35 +41,35 @@ export default function Testinmonials() {
     return (
         <div className="bg-background text-foreground p-8 bg-slate-50">
             <h2 className="text-center text-2xl font-semibold mb-4 text-red-800">TESTIMONIALS</h2>
-            <div className="bg-card p-6 rounded-lg flex items-center transition-all duration-500 ease-in-out">
+            <div className="bg-card p-6 rounded-lg flex md:items-center transition-all duration-500 ease-in-out">
                 <div className="flex-shrink-0 mr-6">
-                    <img className="w-96 h-96 rounded-tl-full rounded-bl-full rounded-tr-md rounded-br-full object-cover" src={testimonial.img} alt="Testimonial person" />
+                    <img className="w-28 h-28 md:w-96 md:h-96 rounded-tl-full rounded-bl-full rounded-tr-md rounded-br-full object-cover" src={testimonial.img} alt="Testimonial person" />
                 </div>
                 <div>
                     <div className="flex flex-col items-start mb-2 pl-6">
-                        <span className="text-accent text-7xl mr-2 text-yellow-500">&#10078;</span>
-                        <h3 className="text-primary text-7xl font-bold text-red-900">{testimonial.name}</h3>
-                        <p className="text-muted-foreground text-2xl font-bold mb-1 text-red-900">{testimonial.occupation}</p>
-                        <p className="text-muted-foreground text-2xl font-bold mb-4 text-gray-600">{testimonial.location}</p>
+                        <span className="text-accent md:text-7xl mr-2 text-yellow-500">&#10078;</span>
+                        <h3 className="text-primary text-xl md:text-7xl font-bold text-red-900">{testimonial.name}</h3>
+                        <p className="text-muted-foreground text-normal md:text-2xl font-bold mb-1 text-red-900">{testimonial.occupation}</p>
+                        <p className="text-muted-foreground text-sm md:text-2xl font-bold mb-4 text-gray-600">{testimonial.location}</p>
                     </div>
-                    <p className="text-muted-foreground text-2xl text-gray-600">{testimonial.feedback}</p>
+                    <p className="text-muted-foreground text-sm md:text-2xl text-gray-600">{testimonial.feedback}</p>
                 </div>
             </div>
-            <div className="flex justify-end mt-4">
+            <div className="flex justify-end md:mt-4">
                 <button
                     onClick={prevTestimonial}
-                    className="bg-red-800 bg-secondary text-secondary-foreground hover:bg-secondary/80 px-8 rounded-tl-full rounded-bl-full rounded-br-full mx-1"
+                    className="bg-red-800 h-10 bg-secondary text-secondary-foreground hover:bg-secondary/80 px-4 md:px-8 rounded-tl-full rounded-bl-full rounded-br-full mx-1"
                 >
-                    <svg style={{ color: "white" }} xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-16">
+                    <svg style={{ color: "white" }} xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-4 md:size-16">
                         <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5 8.25 12l7.5-7.5" />
                     </svg>
 
                 </button>
                 <button
                     onClick={nextTestimonial}
-                    className="rounded-tr-full rounded-bl-full rounded-br-full bg-red-800 bg-secondary text-secondary-foreground hover:bg-secondary/80 px-8 mx-1"
+                    className="rounded-tr-full  h-10 rounded-bl-full rounded-br-full bg-red-800 bg-secondary text-secondary-foreground hover:bg-secondary/80 px-4 md:px-8 mx-1"
                 >
-                    <svg style={{ color: "white" }} xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-16">
+                    <svg style={{ color: "white" }} xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-4 md:size-16">
                         <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
                     </svg>
                 </button>

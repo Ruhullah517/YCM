@@ -4,8 +4,8 @@ import React from 'react';
 
 const About = () => {
     return (<>
-        <div className='pt-24  flex justify-center p-6 gap-x-10'>
-            <div className='flex w-1/2 gap-x-10 '>
+        <div className='mt-32 md:mt-0 md:pt-32  flex justify-center flex-wrap md:flex-nowrap p-6 gap-x-10'>
+            <div className='flex md:w-1/2 gap-x-10'>
                 <div className='flex flex-col gap-y-4 pt-10 '>
                     <div>
                         <img className='rounded-3xl' src="/images/women.jpg" alt="" />
@@ -28,7 +28,7 @@ const About = () => {
                     </div>
                 </div>
             </div>
-            <div className='flex  w-1/2 gap-x-10 '>
+            <div className='flex  md:w-1/2 gap-x-10 pt-6'>
                 <div className=' flex flex-col gap-y-4'>
                     <div className='flex flex-col gap-y-6 p-3'>
                         <p className='text-base font-medium text-rose-900'>About Us</p>

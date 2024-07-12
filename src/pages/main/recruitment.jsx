@@ -3,7 +3,7 @@
 
 const Recruitment = () => {
     return (<>
-        <div className="flex justify-between pt-32 p-6 gap-10">
+        <div className="flex justify-between pt-32 p-6 gap-10 flex-col md:flex-row ">
             <div className=" flex flex-col gap-y-14">
                 <h1 className="text-2xl tracking-wide font-semibold text-red-800">
                     AND THE VALUE KEEPS ADDING UP!
@@ -12,11 +12,11 @@ const Recruitment = () => {
                     Zero Fees And Payments
                     <br />Until You Hire A Teacher
                 </h1>
-                <div className="w-12/12 ">
+                <div className="w-12/12">
                     <img className="rounded-3xl" src="/images/teacher (2).jpg" alt="" />
                 </div>
             </div>
-            <div className="flex flex-row gap-x-10">
+            <div className="flex flex-wrap md:flex-nowrap justify-center gap-x-10">
                 <div className="w-80 relative">
                     <img className="rounded-3xl" src="/images/laptop.jpg" alt="" />
                     <div className=" absolute left-28 top-48 cursor-pointer z-3">

@@ -5,18 +5,18 @@ const Services = () => {
         <div className="text-center  p-3">
             <h1 className="text-3xl font-semibold text-red-900">Our Services</h1>
             <h1 className=" text-5xl font-semibold text-red-900 ">Find Your Perfect Teaching Method</h1>
-            <div className="pt-20 flex justify-around flex-row gap-x-8 flex-wrap">
+            <div className="pt-20 flex justify-around flex-row gap-x-8 gap-y-10 flex-wrap md:flex-nowrap">
 
-                <div className="w-96 relative">
+                <div className="w-3/6 md:w-96 relative">
                     <img className="rounded-3xl" src="/images/women.jpg" alt="" />
-                    <div className=" absolute left-40 top-60 cursor-pointer">
-                        <svg style={{color:"rgb(127 29 29)"}} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" class="size-16">
+                    <div className=" absolute left-20 top-40 md:left-40 md:top-60 cursor-pointer">
+                        <svg style={{color:"rgb(127 29 29)"}} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" class=" size-16 md:size-16">
                             <path fill-rule="evenodd" d="M8 15A7 7 0 1 0 8 1a7 7 0 0 0 0 14Zm-.847-9.766A.75.75 0 0 0 6 5.866v4.268a.75.75 0 0 0 1.153.633l3.353-2.134a.75.75 0 0 0 0-1.266L7.153 5.234Z" clip-rule="evenodd" />
                         </svg>
                     </div>
 
                 </div>
-                <div className=" grid gap-8 grid-cols-2 grid-rows-2">
+                <div className=" grid gap-3 md:gap-8 md:grid-cols-2 grid-rows-2 ">
                     <div className=" rounded-3xl bg-slate-100 p-7 text-start w-96">
                         <div className="flex justify-start mb-4">
                             <svg style={{color:"rgb(127 29 29)"}} xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-10">
