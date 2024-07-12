@@ -58,7 +58,7 @@ export default function Testinmonials() {
             <div className="flex justify-end md:mt-4">
                 <button
                     onClick={prevTestimonial}
-                    className="bg-red-800 h-10 bg-secondary text-secondary-foreground hover:bg-secondary/80 px-4 md:px-8 rounded-tl-full rounded-bl-full rounded-br-full mx-1"
+                    className="bg-red-800 h-10 md:h-16 bg-secondary text-secondary-foreground hover:bg-secondary/80 px-4 md:px-8 rounded-tl-full rounded-bl-full rounded-br-full mx-1"
                 >
                     <svg style={{ color: "white" }} xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-4 md:size-16">
                         <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5 8.25 12l7.5-7.5" />
@@ -67,7 +67,7 @@ export default function Testinmonials() {
                 </button>
                 <button
                     onClick={nextTestimonial}
-                    className="rounded-tr-full  h-10 rounded-bl-full rounded-br-full bg-red-800 bg-secondary text-secondary-foreground hover:bg-secondary/80 px-4 md:px-8 mx-1"
+                    className="rounded-tr-full  h-10 md:h-16 rounded-bl-full rounded-br-full bg-red-800 bg-secondary text-secondary-foreground hover:bg-secondary/80 px-4 md:px-8 mx-1"
                 >
                     <svg style={{ color: "white" }} xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-4 md:size-16">
                         <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
